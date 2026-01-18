@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="McOsu-Discord/McOsu-Discord.vcxproj" Id="8d2e328f-0e57-4484-9ac7-c9a272a140bc" />
+</Solution>
