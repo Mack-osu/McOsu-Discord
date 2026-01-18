@@ -4,7 +4,7 @@ Discord bot that reads live score data broadcasted from a fork of McOsu and disp
 ---
 
 ## Description
-This bot listens for gameplay events sent over localhost from [McOsu-IPC](https://github.com/Mack-osu/McOsu-IPC), a fork of McOsu with HTTP POST support.
+This bot listens for gameplay events sent over localhost from [McOsu-IPC](https://github.com/Mack-osu/McOsu-IPC), a fork of McOsu with HTTP POST support. Powered by [DPP](https://github.com/brainboxdotcc/DPP)<br>
 It currently supports:
 - Recent score statisticts through /McRecent
 
