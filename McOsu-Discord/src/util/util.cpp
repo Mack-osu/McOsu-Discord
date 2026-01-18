@@ -14,39 +14,39 @@ std::string util::GradeToEmote(std::string grade)
 {
     if (grade == "XH")
     {
-        return "<:XH:1457844432861790298>";
+        return EmojiMap["XH"];
     }
     else if (grade == "X")
     {
-        return "<:X_:1457844424565592188>";
+        return EmojiMap["X_"];
     }
     else if (grade == "SH")
     {
-        return "<:SH:1457844416474644724>";
+        return EmojiMap["SH"];
     }
     else if (grade == "S")
     {
-        return "<:S_:1457844407649697792>";
+        return EmojiMap["S_"];
     }
     else if (grade == "A")
     {
-        return "<:A_:1457844356084928791>";
+        return EmojiMap["A_"];
     }
     else if (grade == "B")
     {
-        return "<:B_:1457844372618874890>";
+        return EmojiMap["B_"];
     }
     else if (grade == "C")
     {
-        return "<:C_:1457844381238432038>";
+        return EmojiMap["C_"];
     }
     else if (grade == "D")
     {
-        return "<:D_:1457844391157825537>";
+        return EmojiMap["D_"];
     }
     else if (grade == "F")
     {
-        return "<:F_:1457844399722467349>";
+        return EmojiMap["F_"];
     }
 
     return "";

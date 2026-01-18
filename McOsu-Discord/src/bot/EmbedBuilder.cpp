@@ -34,7 +34,7 @@ dpp::embed EmbedBuilder::ScoreEmbed(const ScoreData& score, const std::string& a
         + "\u2007\u2007"
         + std::to_string(score.score.combo.max) + "x/" + std::to_string(score.score.combo.map_max) + "x"
         + "\u2007\u2007"
-        + (score.score.hits.miss > 0 ? std::to_string(score.score.hits.miss) + "<:miss:1457844451014611045> " : "")
+        + (score.score.hits.miss > 0 ? std::to_string(score.score.hits.miss) + util::EmojiMap["miss"] + " " : "")
         + (score.score.hits.slider_breaks > 0 ? std::to_string(score.score.hits.slider_breaks) + "sb**\n" : "**\n");
 
     // 351.73/420.20PP (386.36pp) • {622/8/0/1}
@@ -55,7 +55,7 @@ dpp::embed EmbedBuilder::ScoreEmbed(const ScoreData& score, const std::string& a
         "AR: " + util::FormatBeatmapStatistic(score.difficulty.ar) + "  "
         "OD: " + util::FormatBeatmapStatistic(score.difficulty.od) + "  "
         "HP: " + util::FormatBeatmapStatistic(score.difficulty.hp) + "` • "
-        + "<:bpm:1457844442219413723>**" + std::to_string(score.beatmap.bpm_common) + "**\n";
+        + util::EmojiMap["bpm"] + "**" + std::to_string(score.beatmap.bpm_common) + "**\n";
 
     embed
         .set_color(0x1F8B4C)
